@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+.padre{
+    width: 70%;
+    margin: 0 auto;
+    background-color: white;
+}
+.contenedor1{
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(207, 233, 236);
+}
+
+/*header*/
+
+.logo{
+    padding:0 15px;
+    color: crimson;
+}
+
+.header{
+   display: flex;
+   justify-content: space-between;
+   padding: 9px 0;
+   align-items: center;
+}
+
+.menu-ul{
+    display: flex;
+}
+.ul-li{
+    list-style: none;
+    padding: 0.5em;
+    
+}
+
+.li-a{
+    text-decoration: none;
+    color: black;
+}
+.li-a:hover{
+    color: orangered;
+}
+
+.derecha{
+    display: flex;
+    justify-content: space-between;
+}
+.info{
+    margin: 0 20px;
+}
+
+.boton{
+    margin: 0 30px;
+}
+
+/*section*/
+
+.cont{
+    display: flex;
+    width: 70%;
+    margin: 80px auto 0 auto;
+    justify-content: space-between;
+   
+}
+
+.cont1 > h1{
+    font-size: 37px;
+}
+
+/*conetenedor 2*/
+.contenedor2{
+    margin: 40px auto;
+}
+.contenedor2 > h3{
+    text-align: center;
+}
+.marcas{
+    display: flex;
+    margin: 20px  auto;
+    justify-content: space-around;
+    width: 80%;
+}
+
+/*contenedor 3*/
+
+.contenedor3-1{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+   
+}
+
+.contenedor3-1-2{
+    border: solid 1px black;
+    margin: 10px;
+}
+.contenedor3-2-2{
+    border: solid 1px black;
+}
+
+.texto{
+    width: 40%;
+}
+  /*contenedor 4*/
+
+
+  .contenedor4{
+      width: 65%;
+      margin: 80px auto;
+  }
+.contenedor4 > h2{
+    color: red;
+}
+  .contenedor4-1{
+      display: flex;
+      justify-content: space-evenly;
+  }
+  .contenedor4-2{
+      margin: 10px;
+  }
+
+  /* contenedor */
+  .contenedor5 > h1{
+     text-align: center;
+  }
+  .contenedor5 > p{
+    text-align: center;
+ }
+ .hijo{
+     width: 60%;
+     margin:40px auto;
+     display: flex;
+ }
+ .hijos5{
+     text-align: center;
+     margin: 2px;
+     border: solid 1px cadetblue;
+ }
+
+ .hijos5:hover{
+     background-color: chocolate;
+ }
+
+ /*contenedor6*/
+   .contenedor6{
+       margin: 150px auto;
+       border: 1px solid #d0d0d0;
+   }
+ .menu2{
+     width: 60%;
+     margin: auto;
+     display: flex;
+    align-items: center;
+ }
+ .nav2{
+   padding: 0 50px;
+ }
+
+ .nav2-ul{
+     display: flex;
+ }
+ .nav2-li{
+     list-style: none;
+     padding: 10px;
+ }
+
+ .nav2-a{
+     text-decoration: none;
+     color: black;
+ } 
+ .nav2-a:hover{
+     color: orangered;
+ }
+
+ .padre6{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .hijo6 >img:hover{
+     width: 330px;
+     
+ }
+
+ /*contenedor 7*/
+ .contenedor7{
+     width: 60%;
+     margin: auto;
+ }
+ .contenedor7 > h2{
+     text-align: center;
+     
+ }
+
+ .padre7{
+     display: flex;
+     margin: 40px auto;
+     justify-content: center;
+ }
+
+ .hijo7{
+     width: 50%;
+     border: solid 1px orangered;
+     margin: 0 15px;
+     padding: 15px;
+ }
+
+ /*contenedor 8*/
+
+ .contenedor8{
+     width: 60%;
+     margin: 60px auto;
+    
+ }
+
+ .padre8{
+     display: flex;
+     justify-content: space-between;
+     margin: 30px auto;
+ }
+
+ .hijo8{
+     width: 150px;
+     border: solid 1px black;
+     background-color: blanchedalmond;
+ }
+
+ /* contenedor 9 */
+
+ .contenedor9{
+    border: 1px solid #d0d0d0;
+ }
+ .contenedor9 > h1{
+     text-align: center;
+    
+ }
+
+ .formulario{
+     display: flex;
+     justify-content: center;
+     margin: 60px auto;
+ }
+
+ .contenedor10{
+     margin: 30px auto;
+ }
